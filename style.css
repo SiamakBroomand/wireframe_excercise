@@ -1,24 +1,65 @@
-
 body {
-    margin:auto;
-    text-overflow: inherit;
-    width: 100%;
+    position: absolute;
     text-align: center;
-    margin: 25px;
+    margin: 0;
+    min-width: 1020px;
 }
-header{
-  display: inline;
+header {
+    display: inline-flex;
+    width: 100%;
+    background-color: lightgrey;
+    position: relative;
+    padding-left: 219px;
+}
+nav {
+    background-color: lightgrey;
+    display: inline-flex;
 }
 header nav img {
     display: inline-block;
     float: left;
+    padding: 10px 12px 5px 155px;
 }
 ul{
   padding: inherit;
+  /*width: 100%;*/
 }
 header ul li {
-    display: inline-block;
+    display: inline-flex;
     float: left;
     list-style: none;
     padding: 25px;
   }
+  main {
+      text-align: center;
+      margin-right: 0;
+  }
+  main img{
+    padding: 10px;
+  }
+  main ul li {
+    display: inline-block;
+    float: center;
+    list-style: none;
+    padding: 4px;
+}
+section img {
+  float: left;
+  position: relative;
+  padding-left: 369px;
+}
+  section article{
+    float: right;
+    overflow: scroll;
+    /*width:250px;*/
+  }
+  section article p{
+    position: relative;
+    float: right;
+  }
+  section article {
+    float: left;
+    overflow: scroll;
+    /*width: 400px;*/
+    padding-left: 120px;
+}
